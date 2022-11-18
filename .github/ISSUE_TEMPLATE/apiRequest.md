@@ -2,7 +2,7 @@
 name: API作成依頼
 about: 新規プロジェクト等で必要になるAPIの作成を依頼する
 title: "[依頼] [エンドポイント名]"
-labels: "api作成依頼"
+labels: "type/api作成依頼"
 ---
 
 # 概要
