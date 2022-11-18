@@ -1,3 +1,9 @@
+---
+name: Bug Report
+about: Let us know about an unexpected error,  or an incorrect behavior.
+labels: "type/bug"
+---
+
 # 概要
 ※[依頼]｛エンドポイント名｝の形式でTitleを記載
 
