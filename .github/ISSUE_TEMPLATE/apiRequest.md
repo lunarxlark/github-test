@@ -1,22 +1,25 @@
 ---
-name: Bug Report
-about: Let us know about an unexpected error,  or an incorrect behavior.
-labels: "type/bug"
+name: API作成依頼
+about: 新規プロジェクト等で必要になるAPIの作成を依頼する
+title: "[依頼] [エンドポイント名]"
+labels: "api作成依頼"
 ---
 
 # 概要
-※[依頼]｛エンドポイント名｝の形式でTitleを記載
 
+- プロジェクト : 
 
 ## queryParameter
-  limit:<br>
-  offset:<br>
-  order:
 
-  ※Example: order=genreKbn_desc,genreKbnID<br>
-  API項目名 + "_" + ソート方法(asc|desc)。','区切りで複数指定
+- limit :
+- offset :
+- order :
+
+> API項目名 + "_" + ソート方法(asc|desc)。','区切りで複数指定
+> 例) order=genreKbn_desc,genreKbnID<br>
 
 ## requestBody
+
   ```json
 {
   "ID": 1234
@@ -24,6 +27,7 @@ labels: "type/bug"
 ```
 
 ## response
+
 ```json
 {
   "ID": 1234
