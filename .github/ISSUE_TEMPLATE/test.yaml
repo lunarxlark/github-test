@@ -1,0 +1,68 @@
+name: API Report
+description: File a api report
+title: "[依頼]｛エンドポイント名｝: "
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      placeholder: ex. ジャンルとそれに紐づくジャンル区分の一覧を取得する。
+    validations:
+      required: true
+  - type: textarea
+    id: queryParameter
+    attributes:
+      label: queryParameter
+      value: |
+        limit:
+        offset:
+        order:
+
+        ※Example: order=genreKbn_desc,genreKbnID
+        API項目名 + "_" + ソート方法(asc|desc)。','区切りで複数指定
+
+    validations:
+      required: false
+  - type: textarea
+    id: requestBody
+    attributes:
+      label: requestBody
+      placeholder: |
+        ```json
+        {
+          "ID": 1234
+        }
+        ```
+
+      value: |
+        ```json
+        {
+        }
+        ```
+
+    validations:
+      required: false
+  - type: textarea
+    id: response
+    attributes:
+      label: response
+      placeholder: |
+        ```json
+        {
+        "genreKbnID": "1110",
+        "genreKbn": "コミック",
+        "genreID": "111\"1",
+        "genreNm": "少年",
+        "genreKana": "ショウネン",
+        "genreType": "1"
+        }
+        ```
+
+      value: |
+        ```json
+        {
+        }
+        ```
+    validations:
+      required: false
+
