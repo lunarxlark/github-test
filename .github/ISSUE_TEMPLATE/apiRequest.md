@@ -7,13 +7,14 @@ labels: "api作成依頼"
 
 # 概要
 
-- プロジェクト : 
+- どのプロジェクトで必要か :  `giraffe`  (phoenixやbug, etc...)
+- どの機能で使用するか : `マスタ > hoge > fuga > 一覧 > 更新`
 
 ## queryParameter
 
-- limit :
-- offset :
-- order :
+- limit : `1`
+- offset : `2`
+- order : 記法は下記参照
 
 > API項目名 + "_" + ソート方法(asc|desc)。','区切りで複数指定
 > 例) order=genreKbn_desc,genreKbnID<br>
